@@ -46,6 +46,7 @@ Now, open your browser and visit the provided URL to see your React website in a
 - In the read page `Edit` , `delete` and `Back` buttons are there.
 - Using `Edit` button you can Update the current user details then it will retun back to the **READ** page, there you can check the **Updated** user details.
 - Using `Delete` button you can delete the user.
+- `Back` button used to come back previous page. -`Home` button used to come back home page.
 - All these `Edit`,`Add+` and `Delete` operations are done using axios .
 - To **get** user details `axios.get()` .
 - To **update** user details `axios.put()`.
