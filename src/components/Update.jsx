@@ -162,7 +162,7 @@ const Update = () => {
         <div className="mt-3">
           <span>
             Note : Here you can <strong>Update</strong> the exsisting user
-            detail.
+            details.
           </span>
         </div>
       </div>
