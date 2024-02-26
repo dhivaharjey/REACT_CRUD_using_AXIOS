@@ -5,14 +5,14 @@ import "./styles/Home.css";
 
 const Home = () => {
   const [data, setData] = useState([]);
-  ///////-------Fetching the data before rendering---//////////
+  ///////-------Fetching the data ---//////////
   useEffect(() => {
     fetchData();
   }, []);
   const fetchData = async () => {
     await axios ///Get call using axios
-      .get("https://65d75bbd27d9a3bc1d7ad5d0.mockapi.io/user_data/USER_DATA")
-      .then((res) => setData(res.data))
+      .get("https://65d75bbd27d9a3bc1d7ad5d0.mockapi.io/user_data/USER_DATA") ///to get user details get api call
+      .then((res) => setData(res.data)) /// updating response data using state
       .catch((err) => console.log(err));
   };
   ///////////////////////////////////////////////////////////////

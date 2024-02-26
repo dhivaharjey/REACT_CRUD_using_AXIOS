@@ -30,10 +30,10 @@ const Update = () => {
       `Do you want Change this "USER DATA"....???? `
     );
     if (confirmation) {
-      await axios
+      await axios /// updating using the put method
         .put(
           `https://65d75bbd27d9a3bc1d7ad5d0.mockapi.io/user_data/USER_DATA/${id}`,
-          editData
+          editData ///payload
         )
         .catch((err) => console.log(err));
       navigate(`/read/${id}`);
@@ -42,7 +42,7 @@ const Update = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    setEditData({ ...editData, [name]: value });
+    setEditData({ ...editData, [name]: value }); /// updating the data using the state update function
   };
   return (
     <>

@@ -33,7 +33,7 @@ const Create = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    setAddData({ ...addData, [name]: value });
+    setAddData({ ...addData, [name]: value }); /// upating the data using state update function
   };
   return (
     <>
@@ -44,10 +44,7 @@ const Create = () => {
         >
           <div className=" text-center fw-bolder  fs-3 mb-3">ADD USER</div>
           <div className="form-group pb-3">
-            <label
-              htmlFor="formGroupExampleInput1"
-              className=" fw-semibold pb-1"
-            >
+            <label for="formGroupExampleInput1" className=" fw-semibold pb-1">
               USER ID :
             </label>
             <input
@@ -61,10 +58,7 @@ const Create = () => {
             />
           </div>
           <div className="form-group pb-3">
-            <label
-              htmlFor="formGroupExampleInput2 "
-              className=" fw-semibold pb-1"
-            >
+            <label for="formGroupExampleInput2 " className=" fw-semibold pb-1">
               NAME :
             </label>
             <input
@@ -78,10 +72,7 @@ const Create = () => {
             />
           </div>
           <div className="form-group pb-3">
-            <label
-              htmlFor="formGroupExampleInput3 "
-              className=" fw-semibold pb-1"
-            >
+            <label for="formGroupExampleInput3 " className=" fw-semibold pb-1">
               USER_NAME :
             </label>
             <input
@@ -95,10 +86,7 @@ const Create = () => {
             />
           </div>
           <div className="form-group pb-3">
-            <label
-              htmlFor="formGroupExampleInput4 "
-              className=" fw-semibold pb-1"
-            >
+            <label for="formGroupExampleInput4 " className=" fw-semibold pb-1">
               EMAIL :
             </label>
             <input
@@ -112,10 +100,7 @@ const Create = () => {
             />
           </div>
           <div className="form-group pb-3">
-            <label
-              htmlFor="formGroupExampleInput5 "
-              className=" fw-semibold pb-1"
-            >
+            <label for="formGroupExampleInput5 " className=" fw-semibold pb-1">
               MOBILE NUMBER :
             </label>
             <input
