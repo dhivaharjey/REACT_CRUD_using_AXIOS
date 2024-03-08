@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className=" container">
-        <table className="table   border-2  mb-5 ">
+        <table className="table   border-2  mb-5 me-2">
           <thead className=" table-dark">
             <tr className=" fw-bold ">
               <td className="p-3 ">ID</td>
