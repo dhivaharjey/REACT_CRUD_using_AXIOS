@@ -39,7 +39,7 @@ const Create = () => {
     <>
       <div className="d-flex flex-column justify-content-center align-items-center vh-100  bg-body-secondary">
         <form
-          className=" bg-transparent p-5 rounded-5 w-25 shadow"
+          className=" bg-transparent p-5 rounded-5 w-50 shadow"
           onSubmit={handleUpadteSubmit}
         >
           <div className=" text-center fw-bolder  fs-3 mb-3">ADD USER</div>

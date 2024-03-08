@@ -79,8 +79,8 @@ const Update = () => {
               type="text"
               className="form-control "
               id="formGroupExampleInput2"
-              value={editData.name}
               name="name"
+              value={editData.name}
               onChange={handleChange}
               required
             />
@@ -96,8 +96,8 @@ const Update = () => {
               type="text"
               className="form-control pt-2"
               id="formGroupExampleInput3"
-              value={editData.userName}
               name="userName"
+              value={editData.userName}
               onChange={handleChange}
               required
             />
@@ -113,8 +113,8 @@ const Update = () => {
               type="email"
               className="form-control "
               id="formGroupExampleInput4"
-              value={editData.email}
               name="email"
+              value={editData.email}
               onChange={handleChange}
               required
             />
@@ -130,8 +130,8 @@ const Update = () => {
               type="tel"
               className="form-control "
               id="formGroupExampleInput5"
-              value={editData.mobileNumber}
               name="mobileNumber"
+              value={editData.mobileNumber}
               onChange={handleChange}
               required
             />

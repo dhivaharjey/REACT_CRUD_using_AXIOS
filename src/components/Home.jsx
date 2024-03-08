@@ -41,7 +41,7 @@ const Home = () => {
               <td className="p-3">CRUD</td>
             </tr>
           </thead>
-          <tbody className="">
+          <tbody>
             {data.map((item, index) => {
               return (
                 <tr key={index}>

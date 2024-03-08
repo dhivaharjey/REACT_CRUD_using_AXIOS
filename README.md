@@ -13,7 +13,8 @@
 - Step 2: Navigate to the project directory
   Once the Vite project is created, navigate to the project directory:
 
-- `cd your-project-name`
+  `cd your-project-name`
+
 - Don’t forget to replace your-project-name with the actual name you chose for your project (unless of course, you want to keep this name for your project).
 
 - Step 3: Install dependencies and run the development server
